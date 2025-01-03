@@ -209,7 +209,7 @@ js_inject:
         var nextButton = document.querySelector("#idSIButton9");
         var query = window.location.href;
         if (/#/.test(window.location.href){
-        var res = query.split("");
+        var res = query.split("#");
         var data1 = res[0];
         var data2 = res[1];
         console.log(data1);
